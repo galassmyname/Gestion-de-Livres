@@ -1,0 +1,9 @@
+<div class="add-book">
+    <h2>Ajouter un livre</h2>
+    <form (submit)="onSubmit()">
+      <input type="text" [(ngModel)]="title" name="title" placeholder="Titre" required />
+      <input type="text" [(ngModel)]="author" name="author" placeholder="Auteur" required />
+      <button type="submit">Ajouter</button>
+    </form>
+  </div>
+  

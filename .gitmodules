@@ -1,0 +1,3 @@
+[submodule "gestion-de-livres"]
+	path = gestion-de-livres
+	url = https://github.com/galassmyname/gestion-de-livres.git

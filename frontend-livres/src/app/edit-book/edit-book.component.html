@@ -1,0 +1,9 @@
+<div class="edit-book">
+    <h2>Modifier un livre</h2>
+    <form (submit)="onSubmit()">
+      <input type="text" [(ngModel)]="title" name="title" placeholder="Titre" required />
+      <input type="text" [(ngModel)]="author" name="author" placeholder="Auteur" required />
+      <button type="submit">Mettre à jour</button>
+    </form>
+  </div>
+  

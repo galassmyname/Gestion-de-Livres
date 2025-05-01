@@ -1,0 +1,13 @@
+<div class="book-list">
+    <div class="header">
+      <h2>Liste des livres</h2>
+      <button class="add-button" (click)="addNewBook()">+ Ajouter un livre</button>
+    </div>
+    <ul>
+      <li *ngFor="let book of books">
+        {{ book.title }} - {{ book.author }}
+        <button (click)="editBook(book._id)">Modifier</button>
+        <button (click)="deleteBook(book._id)">Supprimer</button>
+      </li>
+    </ul>
+  </div>
